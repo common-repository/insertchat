@@ -1,0 +1,108 @@
+/* Reset some styles to maintain consistency across different admin themes */
+.insertchat-wrap,
+.insertchat-wrap h1,
+.insertchat-wrap form,
+.insertchat-wrap label,
+.insertchat-wrap input {
+  box-sizing: border-box;
+}
+
+/* Main wrapper styles */
+.insertchat-wrap {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo container styles */
+.insertchat-logo-container {
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.insertchat-logo-container img {
+  max-width: 250px;
+  height: auto;
+}
+
+/* Form group styles */
+.insertchat-form-group {
+  margin-bottom: 25px;
+}
+
+.insertchat-form-group label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.insertchat-form-group input[type="text"] {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* P element / description */
+.insertchat-wrap .description {
+  font-size: 13px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Submit button container styles */
+.submit-btn-container {
+  text-align: left;
+}
+
+.submit-btn-container > p {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* Submit button styles */
+.submit-btn-container input[type="submit"] {
+  padding: 10px 30px;
+  background-color: #0e111b;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+.submit-btn-container input[type="submit"]:hover {
+  background-color: #5e44ff;
+}
+
+.form-table th {
+  display: none !important;
+}
+
+#toplevel_page_insertchat .wp-menu-image img {
+  width: 20px;
+  height: 20px;
+  padding: 7px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 782px) {
+  .insertchat-wrap {
+    padding: 15px;
+  }
+
+  .submit-btn-container input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+  }
+}
